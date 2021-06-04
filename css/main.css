@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif; }
+
+.hero {
+  background-color: #232323; }
+  .hero h1 {
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 1.5em;
+    padding-bottom: 30px; }
+  .hero span {
+    color: #a61b2b;
+    font-weight: bold; }
+  .hero img {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 100px;
+    height: auto; }
+  .hero .menu li {
+    display: inline-block;
+    color: white;
+    text-align: center; }
+    .hero .menu li a {
+      text-decoration: none;
+      color: white; }
+
+.bg {
+  background-color: white; }
+
+.first-team .player,
+.second-team .player {
+  background-color: white;
+  border-radius: 15px;
+  border: none;
+  -webkit-box-shadow: 2px 1px 12px -2px rgba(0, 0, 0, 0.6);
+  box-shadow: 2px 1px 12px -2px rgba(0, 0, 0, 0.6);
+  margin: 10px;
+  padding: 0; }
+  .first-team .player:hover,
+  .second-team .player:hover {
+    border: 2px solid #a61b2b;
+    border-radius: 15px; }
+.first-team .flag,
+.second-team .flag {
+  width: 32px;
+  padding-bottom: 10px;
+  border-radius: 5px; }
+.first-team h1,
+.second-team h1 {
+  padding: 15px 0;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: bold;
+  color: #a61b2b;
+  text-align: center;
+  margin-bottom: 0; }
+.first-team img,
+.second-team img {
+  width: 100%;
+  border-radius: 15px 15px 0 0; }
+.first-team h3,
+.second-team h3 {
+  padding-top: 10px;
+  color: #a61b2b;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 1em;
+  margin-bottom: 0; }
+.first-team p,
+.second-team p {
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 0; }
+.first-team .number,
+.second-team .number {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #232323;
+  padding-bottom: 0; }
+
+.second-team {
+  margin-bottom: 15px; }
+
+footer {
+  background-color: #232323;
+  height: 100%; }
+  footer p {
+    color: white;
+    text-align: center;
+    background-color: #232323;
+    padding: 15px;
+    margin: 0; }
+
+/*# sourceMappingURL=main.css.map */
